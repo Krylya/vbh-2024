@@ -4,17 +4,12 @@
 @import "global/normalize.scss";
 @import "global/layout.scss";
 //
-//@import "blocks/header.scss";
-//@import "blocks/footer.scss";
-//@import "blocks/content.scss";
-//
-//@import "blocks/main-title.scss";
-//@import "blocks/main-works.scss";
-//@import "blocks/index/video.scss";
-//
-//@import "blocks/project.scss";
 
 @import "block/header.scss";
+@import "block/footer.scss";
+
+//main-page
+@import "block/main/main-about.scss";
 
 
 

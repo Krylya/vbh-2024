@@ -7,6 +7,8 @@ html(lang="ru")
         title= "wp pug"
         link(rel='stylesheet' href='./style/style.css')
     body
-        include modules/header
-        h1 Hello, World
-        include modules/footer
+        div.wrapper
+            include modules/header
+            div.content
+                include modules/main/about
+            include modules/footer

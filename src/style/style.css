@@ -434,7 +434,8 @@ body {
 
 .container {
   box-sizing: border-box;
-  padding: 0 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 h1, h2, h3, h4 {
@@ -454,7 +455,31 @@ p {
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: darkred;
+  background: #eaeced;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #eaeced;
+}
+
+.main-about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.main-about h1 {
+  padding-left: 10vw;
+  font-size: 4vw;
+}
+.main-about p {
+  font-size: 2.2vw;
+  line-height: 1.15;
+  text-indent: 10vw;
+  margin-bottom: 60px;
+}
+.main-about span {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
